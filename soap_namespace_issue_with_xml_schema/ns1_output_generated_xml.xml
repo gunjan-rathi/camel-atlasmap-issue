@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Envelope xmlns="http://schemas.xmlsoap.org/soap/envelope/">
+	<Header>
+		<SessionId xmlns="http://schemas.ericsson.com/cai3g1.2/">123</SessionId>
+	</Header>
+	<Body>
+		<Create xmlns="http://schemas.ericsson.com/cai3g1.2/">
+			<MOType>NaaS@http://schemas.ericsson.com/ma/CA/NaaS</MOType>
+			<MOId>
+				<MSISDN xmlns="http://schemas.ericsson.com/ma/CA/NaaS/">09001001</MSISDN>
+				<IMSI xmlns="http://schemas.ericsson.com/ma/CA/NaaS/">8288119</IMSI>
+			</MOId>
+			<MOAttributes>
+				<CreateNaaS xmlns="http://schemas.ericsson.com/ma/CA/NaaS/">
+					<MSISDN>901001001</MSISDN>
+					<NBPARAM>ababba</NBPARAM>
+					<IMSI>019100101</IMSI>
+					<CORRELATIONID>1234</CORRELATIONID>
+					<REQUESTTYPE>step</REQUESTTYPE>
+					<MOBILEACCESSUUID>mobileid1323</MOBILEACCESSUUID>
+					<SERVICEPROVIDERID>spid123</SERVICEPROVIDERID>
+					<ACCESSTYPE>roaming</ACCESSTYPE>
+					<INTERNATIONALROAMING>yes</INTERNATIONALROAMING>
+					<VMPIN>vmpin123</VMPIN>
+					<CALLING>
+						<CALLINGSERVICEPROFILE>calling</CALLINGSERVICEPROFILE>
+						<RATINGCONTEXT>ratingcontext</RATINGCONTEXT>
+						<CALLRESTRICTION>callrestriction</CALLRESTRICTION>
+						<IDDDIVERSIONALLOWED>diversion</IDDDIVERSIONALLOWED>
+						<CLIPPRESENTATION>presentaion</CLIPPRESENTATION>
+						<CALLNUMBERDISPLAY>splay</CALLNUMBERDISPLAY>
+						<MULTIPARTYCONFERENCING>conferenencing</MULTIPARTYCONFERENCING>
+						<VIDEOCALLING>yes</VIDEOCALLING>
+						<DEFAULTCALLBACKNOTIFICATION>allowed</DEFAULTCALLBACKNOTIFICATION>
+						<CALLFORWARINGTIMER>yes</CALLFORWARINGTIMER>
+					</CALLING>
+					<VOICEMAIL>
+						<TYPE>hahh</TYPE>
+					</VOICEMAIL>
+					<MESSAGING>
+						<RATINGCONTEXT>yeyyw</RATINGCONTEXT>
+						<RCS>RCS</RCS>
+					</MESSAGING>
+					<DATA>
+						<DATANAME>netpak</DATANAME>
+					</DATA>
+				</CreateNaaS>
+			</MOAttributes>
+		</Create>
+	</Body>
+</Envelope>

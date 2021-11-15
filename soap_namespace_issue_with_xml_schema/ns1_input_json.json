@@ -1,0 +1,62 @@
+{
+	"header":{
+		"sessionId" : "123"
+		
+	},
+	"body":{
+		"create":{
+			"MoType" :"NaaS@http://schemas.ericsson.com/ma/CA/NaaS",
+			"Moid":{
+				"msisdn" : "09001001",
+				"imsi" : "8288119"
+			},
+			"createNass":{
+				
+				"msisdn" : "901001001",
+				"NBParam" : "ababba",
+				"imsi" : "019100101",
+				"correlationId" :"1234",
+				"requesttype": "step",
+				"mobileaccessuuid": "mobileid1323",
+				"serviceprovderId": "spid123",
+				"accesstype": "roaming",
+				"internationalRoaming": "yes",
+				"Vmpin": "vmpin123",
+				"calling" :{
+					
+					"CALLINGSERVICEPROFILE": "calling",
+					"RATINGCONTEXT": "ratingcontext",
+					"CALLRESTRICTION":"callrestriction",
+					"IDDDIVERSIONALLOWED":"diversion",
+					"CLIPPRESENTATION":"presentaion",
+					"CALLNUMBERDISPLAY":"splay",
+					"MULTIPARTYCONFERENCING":"conferenencing",
+					"VIDEOCALLING":"yes",
+					"DEFAULTCALLBACKNOTIFICATION":"allowed",
+					"CALLFORWARINGTIMER":"yes"
+					
+				},
+				"voicemail":{
+					"type": "hahh"
+				},
+				"messaging":{
+					"ratingcontext":"yeyyw",
+					"RCS" : "RCS"
+				},
+				"data":{
+				"dstaname" : "netpak"
+				}
+				
+				
+				
+			
+			
+			
+			
+		}
+		
+	}
+	
+	
+}
+}
